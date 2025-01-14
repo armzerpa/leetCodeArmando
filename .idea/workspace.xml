@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff44ab0-acc0-4597-a886-b8746a6d6c08" name="Changes" comment="thrid problem solved">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aff44ab0-acc0-4597-a886-b8746a6d6c08" name="Changes" comment="other changes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736879060696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="other changes">
+      <created>1736882810216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736882810216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +143,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second problem solved" />
     <MESSAGE value="thrid problem solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="thrid problem solved" />
+    <MESSAGE value="other changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="other changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
