@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff44ab0-acc0-4597-a886-b8746a6d6c08" name="Changes" comment="second problem solved">
+    <list default="true" id="aff44ab0-acc0-4597-a886-b8746a6d6c08" name="Changes" comment="thrid problem solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/intersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/intersectionNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +42,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumRootLeafNumbers">
-    <configuration name="SumRootLeafNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumRootLeafNumbers" />
+  <component name="RunManager" selected="Application.SSMLParserClaude">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicCalculator" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intersectionNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intersectionNode" />
+    <configuration name="LagestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LagestNumberInArray" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isPalindrome" />
+    <configuration name="SSMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SSMLParser" />
+      <module name="leetCodeArmando" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSMLParserClaude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SSMLParserClaude" />
+      <module name="leetCodeArmando" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSum" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,9 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumRootLeafNumbers" />
-        <item itemvalue="Application.intersectionNode" />
-        <item itemvalue="Application.isPalindrome" />
+        <item itemvalue="Application.SSMLParserClaude" />
+        <item itemvalue="Application.SSMLParser" />
+        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.LagestNumberInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736877173915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="thrid problem solved">
+      <created>1736879060696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736879060696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +135,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second problem solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="second problem solved" />
+    <MESSAGE value="thrid problem solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="thrid problem solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
