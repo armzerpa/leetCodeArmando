@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -43,8 +42,7 @@ public class intersectionNode {
     }
 
     public static void main(String[] args) {
-
-        Map<Integer, String> m = HashMap<Integer, String>();
+        //Map<Integer, Integer> numMap = new HashMap<>();
 
         /*intersectionNode c = new intersectionNode();
         // 4,1,8,4,5
