@@ -48,15 +48,7 @@ public class SSMLParser {
     }
 
     public static void main(String[] args) {
-        String ssml = """
-                <speak>
-                    <voice name="en-US-AriaNeural">
-                        Hello, welcome to the world of SSML!
-                    </voice>
-                    <break time="500ms"/>
-                    <prosody pitch="+10Hz">This is a test.</prosody>
-                </speak>
-                """;
+        String ssml = "";
 
         try {
             SSMLParser parser = new SSMLParser(ssml);

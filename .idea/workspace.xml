@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aff44ab0-acc0-4597-a886-b8746a6d6c08" name="Changes" comment="other changes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicCalculator.java" afterDir="false" />
+    <list default="true" id="aff44ab0-acc0-4597-a886-b8746a6d6c08" name="Changes" comment="new challenges">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MaxFreqInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaxFreqInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SSMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SSMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SSMLParserClaude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SSMLParserClaude.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,48 +34,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2735632"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SSMLParserClaude">
-    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicCalculator" />
+  <component name="RunManager" selected="Application.MaxFreqInArray">
+    <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BalancedBrackets" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LagestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LagestNumberInArray" />
+    <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountPairs" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SSMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SSMLParser" />
+    <configuration name="MaxFreqInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxFreqInArray" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SSMLParserClaude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SSMLParserClaude" />
+    <configuration name="MiniMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniMaxSum" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoSum" />
+    <configuration name="TimeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimeConversion" />
       <module name="leetCodeArmando" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SSMLParserClaude" />
-        <item itemvalue="Application.SSMLParser" />
-        <item itemvalue="Application.BasicCalculator" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.LagestNumberInArray" />
+        <item itemvalue="Application.MaxFreqInArray" />
+        <item itemvalue="Application.CountPairs" />
+        <item itemvalue="Application.BalancedBrackets" />
+        <item itemvalue="Application.TimeConversion" />
+        <item itemvalue="Application.MiniMaxSum" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736882810216</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new challenges">
+      <created>1741043222849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741043222849</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new challenges">
+      <created>1741623575924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741623575924</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +164,8 @@
     <MESSAGE value="second problem solved" />
     <MESSAGE value="thrid problem solved" />
     <MESSAGE value="other changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="other changes" />
+    <MESSAGE value="new challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="new challenges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -168,6 +189,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/intersectionNode.java</url>
           <line>40</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TimeConversion.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MaxFreqInArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MaxFreqInArray.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MaxFreqInArray.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MaxFreqInArray.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

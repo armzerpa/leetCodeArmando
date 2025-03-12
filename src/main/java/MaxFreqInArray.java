@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Stack;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -56,8 +57,39 @@ public class MaxFreqInArray {
         return result;
     }
 
-    public static int getMaxFrequencyItem(List<Integer> array) {
-        return 0;
+    public static List<Integer> solution3(List<Integer> numbers, List<Integer> q) {
+        if (numbers.isEmpty() || q.isEmpty() || q.size() < numbers.size())
+            return null;
+
+        Stack<Integer> lastRemovedElements = createStackFromList(numbers);
+        List<Integer> result = new ArrayList<>();
+
+        int justRemoveItem = -1;
+        int max = 0;
+        int freq = 0;
+        for (int j = 0; j < q.size(); j++) {
+            if (justRemoveItem == max) freq--;
+            if (freq > 0) {
+                result.add(freq);
+            } else {
+                max = Collections.max(lastRemovedElements);
+                freq = Collections.frequency(lastRemovedElements, max);
+                result.add(freq);
+            }
+            justRemoveItem = lastRemovedElements.pop();
+
+        }
+        return result;
+    }
+
+    private static Stack<Integer> createStackFromList(List<Integer> numbers) {
+        List<Integer> reverserNumbers = new ArrayList<>(numbers);
+        Collections.reverse(reverserNumbers);
+        Stack<Integer> stack = new Stack<>();
+        stack.addAll(reverserNumbers);
+        reverserNumbers.clear();
+        reverserNumbers = null;
+        return stack;
     }
 
     public static void main(String[] args) {
@@ -74,7 +106,7 @@ public class MaxFreqInArray {
                 .collect(Collectors.toList());
 
         long startTime = System.currentTimeMillis();
-        List<Integer> freqRes = solution2(nBig, qBig);
+        List<Integer> freqRes = solution3(nBig, qBig);
         long endTime = System.currentTimeMillis();
         long executionTime = endTime - startTime;
         double executionTimeMinutes = (double) executionTime / (1000 * 60);

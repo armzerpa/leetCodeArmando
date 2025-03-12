@@ -267,15 +267,6 @@ public class SSMLParserClaude {
                 + "<break strength=\"strong\"/> with a pause.</prosody>"
                 + "</speak>";
 
-        String ssml2 = """
-                <speak>
-                    <voice name="en-US-AriaNeural">
-                        Hello, welcome to the world of SSML!
-                    </voice>
-                    <break time="500ms"/>
-                    <prosody pitch="+10Hz">This is a test.</prosody>
-                </speak>
-                """;
 
         try {
             String validatedSSML = parser.parseSSML(ssml);
