@@ -67,7 +67,7 @@ public class MaxFreqInArray {
         int justRemoveItem = -1;
         int max = 0;
         int freq = 0;
-        for (int j = 0; j < q.size(); j++) {
+        for (int a : q) {
             if (justRemoveItem == max) freq--;
             if (freq > 0) {
                 result.add(freq);
@@ -77,7 +77,36 @@ public class MaxFreqInArray {
                 result.add(freq);
             }
             justRemoveItem = lastRemovedElements.pop();
+        }
+        return result;
+    }
 
+    public static List<Integer> solution4(List<Integer> numbers, List<Integer> q) {
+        if (numbers.isEmpty() || q.isEmpty())
+            return null;
+
+        Stack<Integer> lastRemovedElements = createStackFromList(numbers);
+        List<Integer> result = new ArrayList<>();
+
+        int justRemoveItem = -1;
+        int max = 0;
+        int freq = 0;
+        int prevElement = 0;
+        for (int a : q) {
+            if (justRemoveItem == max) freq--;
+            if (freq > 0) {
+                result.add(freq);
+            } else {
+                max = Collections.max(lastRemovedElements);
+                freq = Collections.frequency(lastRemovedElements, max);
+                result.add(freq);
+            }
+            int popCount = a - prevElement;
+            while (popCount > 0){
+                justRemoveItem = lastRemovedElements.pop();
+                popCount--;
+            }
+            prevElement = a;
         }
         return result;
     }
@@ -106,13 +135,13 @@ public class MaxFreqInArray {
                 .collect(Collectors.toList());
 
         long startTime = System.currentTimeMillis();
-        List<Integer> freqRes = solution3(nBig, qBig);
+        List<Integer> freqRes = solution4(numbers, q);
         long endTime = System.currentTimeMillis();
         long executionTime = endTime - startTime;
         double executionTimeMinutes = (double) executionTime / (1000 * 60);
 
         System.out.println("Execution time (milliseconds): " + executionTime + " and in minutes: " + executionTimeMinutes);
-        System.out.println("Result: " + freqRes.size());
+        System.out.println("Result: " + freqRes);
     }
 
     public static List<Integer> generateFixedList(int n, int fixedValue) {
